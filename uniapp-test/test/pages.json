@@ -1,0 +1,89 @@
+{
+	"pages": [
+		{
+		    "path" : "pages/login/index",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},
+		{
+			"path" : "pages/bookShelf/bookShelf",
+			"style" :{
+				"navigationBarTitleText": "小说阅读",
+				"enablePullDownRefresh": false
+			}
+		}
+        ,{
+            "path" : "pages/classify/classify",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "小说阅读",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/rankingList/rankingList",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "小说阅读",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/bookStore/bookStore",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+		
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	},
+	"tabBar":{
+		"color": "#7A7E83",
+		"selectedColor": "#3cc51f",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list":[
+			{
+				"pagePath": "pages/bookShelf/bookShelf",
+				"iconPath": "static/c1.png",
+				"selectedIconPath": "static/c1.png",
+				"text": "书架"
+			},
+			{
+				"pagePath": "pages/bookStore/bookStore",
+				"iconPath": "static/c2.png",
+				"selectedIconPath": "static/c2.png",
+				"text": "书架"
+			},
+			{
+				"pagePath": "pages/classify/classify",
+				"iconPath": "static/c3.png",
+				"selectedIconPath": "static/c3.png",
+				"text": "分类"
+			},
+			{
+				"pagePath": "pages/rankingList/rankingList",
+				"iconPath": "static/c4.png",
+				"selectedIconPath": "static/c4.png",
+				"text": "排行"
+			}
+		]
+	}
+}
